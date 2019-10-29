@@ -1,0 +1,33 @@
+{
+  "name": "shared-component-library",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "start-storybook -p 9001 -c .storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MariusLastauskas/shared-component-library.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MariusLastauskas/shared-component-library/issues"
+  },
+  "homepage": "https://github.com/MariusLastauskas/shared-component-library#readme",
+  "dependencies": {
+    "@storybook/cli": "5.2.5",
+    "@storybook/react": "5.2.5",
+    "react": "16.11.0",
+    "react-dom": "16.11.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.6.4",
+    "@babel/preset-env": "7.6.3",
+    "@babel/preset-react": "7.6.3",
+    "webpack": "4.41.2",
+    "webpack-cli": "3.3.9"
+  }
+}
